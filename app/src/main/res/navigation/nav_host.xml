@@ -23,9 +23,6 @@
         android:label="List"
         tools:layout="@layout/fragment_list" >
         <action
-            android:id="@+id/action_ListFragment_to_addFragment"
-            app:destination="@id/addFragment" />
-        <action
             android:id="@+id/action_ListFragment_to_homeFragment"
             app:destination="@id/homeFragment" />
         <action
